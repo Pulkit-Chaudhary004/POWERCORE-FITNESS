@@ -9,7 +9,7 @@ import crossfit from "../assets/crossfit.jpg";
 const Franchise = () => {
   return (
     <>
-      <div className="container-fluid px-0">
+      <div className="container-fluid px-0" style={{marginTop:"8vh"}}>
         <div className="row g-0">
           <div className="col-12 col-md-12  ">
             <div
@@ -20,7 +20,7 @@ const Franchise = () => {
                 src={test}
                 alt=""
                 className="h-100 w-100"
-                style={{ objectFit: "fill " }}
+                style={{ objectFit: "cover", objectPosition:"50% 40%" }}
               />
             </div>
           </div>

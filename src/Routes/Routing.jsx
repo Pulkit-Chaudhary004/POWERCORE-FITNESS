@@ -8,6 +8,7 @@ import cardio1 from "../assets/cardio1.webp";
 import cardio2 from "../assets/cardio2.jpeg";
 import cardio3 from "../assets/cardio3.jpg";
 import TrainWithUs from "../Components/TrainWithUs/TrainWithUs"
+import FindClub from "../Components/FindClub/FindClub";
 
 const Routing = () => {
   const router = createBrowserRouter([
@@ -34,6 +35,10 @@ const Routing = () => {
         {
           path: "train-with-us",
           element: <TrainWithUs />,
+        },
+        {
+          path: "find-club",
+          element: <FindClub />,
         },
       ],
     },

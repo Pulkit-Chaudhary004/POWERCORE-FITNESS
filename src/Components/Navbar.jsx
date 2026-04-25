@@ -24,7 +24,7 @@ const Navbar = ({gymName}) => {
         <NavLink className="nav-link   fw-bold" to="/train-with-us">Train with us</NavLink>
       </li>
       <li className="nav-item">
-        <NavLink className="nav-link  fw-bold" to="">Disabled </NavLink>
+        <NavLink className="nav-link  fw-bold" to="/find-club">Find a Club </NavLink>
       </li>
     </ul>
   </div>
